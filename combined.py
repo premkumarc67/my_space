@@ -23,7 +23,6 @@ DPI   = 300           # PDF pages are rendered as images at 300 DPI. Higher Dots
 SCALE = DPI / 72      # PDF points → pixels conversion factor. 1 inch = 72 PDF points.
 PAD   = 5             # pixels to inset from each cell border line
 
-
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 def pt_to_px(value: float) -> int:
